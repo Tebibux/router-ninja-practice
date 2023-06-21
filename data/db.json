@@ -1,0 +1,148 @@
+{
+	"places": [
+		{
+			"id": 1,
+			"title": "Desert Mountain Forest",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/1_desertMountainForest.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Desert Mountain",
+			"place": "North East Ethiopia",
+			"photo": "/data/imgAsset/2_desertMoutain.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Desert Mountain",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/3_desertMoutain2.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Desert Mountain Forest",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/4_desertRiver.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Desert valley",
+			"place": "Central Ethiopia At Rift Valley",
+			"photo": "/data/imgAsset/5_desertRiver2.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Desert Mountain",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/6_desertValley.jpg"
+		},
+		{
+			"id": 7,
+			"title": "Desert Mountain",
+			"place": "North West Ethiopia",
+			"photo": "/data/imgAsset/desertMountainForest.jpg"
+		},
+		{
+			"id": 8,
+			"title": "Forest Lake of Micha",
+			"place": "South West Ethiopia",
+			"photo": "/data/imgAsset/8_forestLake.jpg"
+		},
+		{
+			"id": 9,
+			"title": "Forest Lake of Tebxx",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/9_forestLake2.jpg"
+		},
+		{
+			"id": 10,
+			"title": "Forest Lake of Morissa",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/10_forestLake3.jpg"
+		},
+		{
+			"id": 11,
+			"title": "Forest Lake of Sorri",
+			"place": "South Ethiopia",
+			"photo": "/data/imgAsset/11_forestLake4.jpg"
+		},
+		{
+			"id": 12,
+			"title": "Forest River of Morissa",
+			"place": "South East Ethiopia",
+			"photo": "/data/imgAsset/13_forestRiver2.jpg"
+		},
+		{
+			"id": 13,
+			"title": "Forest River of Qerra",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/13_forestRiver2.jpg"
+		},
+		{
+			"id": 14,
+			"title": "Forest River Denqa",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/14_forestRiver3.jpg"
+		},
+		{
+			"id": 15,
+			"title": "Forest Lake of Morissa",
+			"place": "East Ethiopia",
+			"photo": "/data/imgAsset/15_forestRiver4.jpg"
+		},
+		{
+			"id": 16,
+			"title": "Forest River of Abiba",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/16_forestRiver5.jpg"
+		},
+		{
+			"id": 17,
+			"title": "Mountain River Hira",
+			"place": "South Ethiopia",
+			"photo": "/data/imgAsset/17_moutainRiver.jpg"
+		},
+		{
+			"id": 18,
+			"title": "Qerra Valley",
+			"place": "North Ethiopia",
+			"photo": "/data/imgAsset/18_moutainRiverValley.jpg"
+		},
+		{
+			"id": 19,
+			"title": "Valley Morissa",
+			"place": "South Ethiopia",
+			"photo": "/data/imgAsset/19_moutainValley.jpg"
+		},
+		{
+			"id": 20,
+			"title": "Valley Dercha",
+			"place": "East Ethiopia",
+			"photo": "/data/imgAsset/20_moutainValley2.jpg"
+		},
+		{
+			"id": 21,
+			"title": "Valley Hira",
+			"place": "East Ethiopia",
+			"photo": "/data/imgAsset/21_moutainValley3.jpg"
+		},
+		{
+			"id": 22,
+			"title": "Water Fall Morissa",
+			"place": "West Ethiopia",
+			"photo": "/data/imgAsset/22_moutainWaterFall.jpg"
+		},
+		{
+			"id": 23,
+			"title": "Mountain River Fall Qerra",
+			"place": "North East Ethiopia",
+			"photo": "/data/imgAsset/23_moutainWaterFall2.jpg"
+		},
+		{
+			"id": 24,
+			"title": "Forest Lake of Morissa",
+			"place": "West North Ethiopia",
+			"photo": "/data/imgAsset/24_valleyWaterFall.jpg"
+		}
+	]
+}
