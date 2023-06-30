@@ -36,6 +36,7 @@ header {
 }
 
 header>h1 {
+	font-size: 50px;
 	padding-left: 20px;
 }
 
@@ -60,13 +61,13 @@ a:hover {
 }
 
 .root-main {
-	background-color: var(--background);
 	height: 100%;
 	width: inherit;
+
+
 }
 
 .main-nav {
-	background-color: var(--secondary);
 	height: 100px;
 	display: flex;
 	justify-content: space-evenly;
@@ -79,16 +80,157 @@ a:hover {
 	height: inherit;
 	display: grid;
 	place-items: center;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bolder;
-	text-decoration: underline;
+
+}
+
+button {
+	width: 100%;
+	font-size: large;
+	font-weight: bold;
+	border: 0;
+	padding: 8px;
+	border-radius: 4px;
+	color: rgb(0, 0, 0);
+	background: var(--primary);
+	cursor: pointer;
+}
+
+/* contact form */
+.contact {}
+
+form {
+	margin-top: 30px;
+}
+
+form input,
+form label span,
+form textarea {
+	display: block;
+}
+
+form input,
+form textarea {
+	margin-bottom: 30px;
+	padding: 8px;
+	border-radius: 4px;
+	border: 0;
+	width: 300px;
+	color: var(--secondary);
+}
+
+form label span {
+	margin-bottom: 10px;
 }
 
 .hover-effect:hover {
 	color: #e6e6e6;
 	background-color: var(--hoverColor);
 	/* transition: 0.3s; */
-	transition: background-color 0.4s ease-in-out;;
+	transition: background-color 0.4s ease-in-out;
+	text-decoration: underline;
+}
+
+.icons-main {
+	display: grid;
+	place-items: center;
+}
+
+.root-contact,
+.root-faq,
+.about,
+.icons {
+	margin-top: 50px;
+	display: grid;
+	place-items: center;
+	gap: 10px;
+}
+
+.root-contact {
+	background-color: var(--background);
+	padding: 50px;
+	width: 50%;
+}
+
+.contact {
+	width: 100%;
+	display: grid;
+	place-items: center;
+	gap: 10px;
+}
+
+label {
+	font-size: x-large;
+}
+
+input {
+	height: 50px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.contact h3 {
+	color: aquamarine;
+
+}
+
+.help-faq-title {
+	text-decoration: underline;
+	font-size: 1.3rem;
+}
+
+.help-faq-message {
+	font-size: 1.1rem;
+
+}
+
+.help-faqs {
+	background-color: var(--background);
+	width: 50%;
+	margin: 15px;
+	padding: 15px;
+	display: grid;
+	place-items: center;
+}
+
+
+.icons,
+.about-page {
+	height: 100%;
+	margin-top: 5%;
+	width: 1200px;
+	display: grid;
+	place-items: center;
+	font-size: x-large;
+}
+
+.about-page {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.111);
+}
+
+.icon {
+	height: 100px;
+	width: 50%;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.111);
+}
+
+.icon-div {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-img {
+	height: 100%;
 }
 
 .footer {

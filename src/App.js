@@ -3,15 +3,14 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 // layout pages
 import RootLayout from "./layout/RootLayout";
 import HomeLayout from "./layout/HomeLayout";
-
+import HelpLayout from "./layout/HelpLayout";
 // pages
-import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Help from "./pages/Help";
-import Paradise from "./pages/home/Paradise";
+import Paradise from "./pages/home/Paradise"; // serves us Home page
 import Explore from "./pages/home/Explore";
-
+import Faq from "./pages/help/Faq"; // serves us Help Home page
+import Message from "./pages/help/Message";
 
 export default function App() {
 
@@ -24,7 +23,10 @@ export default function App() {
         </Route>
         <Route path="About" element={<About />} />
         <Route path='Contact' element={<Contact />} />
-        <Route path="Help" element={<Help />} />
+        <Route path="Help" element={<HelpLayout />} >
+          <Route index element={<Faq />} />
+          <Route path="Message" element={<Message />} />
+        </Route>
       </Route>
     )
   )
