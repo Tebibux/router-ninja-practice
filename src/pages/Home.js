@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<div>
+		<div className="home">
 			<h1>This is Home Page</h1>
 			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 				Veritatis ullam autem sunt delectus natus consequuntur quod,
