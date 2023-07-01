@@ -18,7 +18,11 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route path="/" element={<HomeLayout />} >
-          <Route path="/" element={<Paradise />} />
+          <Route
+            path="/"
+            element={<Paradise />}
+            loader={placeLoader}
+            />
           <Route
             path="explore"
             element={<Explore />}
