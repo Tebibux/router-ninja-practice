@@ -8,7 +8,7 @@ import HelpLayout from "./layout/HelpLayout";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Paradise from "./pages/home/Paradise"; // serves us Home page
-import Explore from "./pages/home/Explore";
+import Explore, { placeLoader } from "./pages/home/Explore";
 import Faq from "./pages/help/Faq"; // serves us Help Home page
 import Message from "./pages/help/Message";
 
@@ -19,7 +19,11 @@ export default function App() {
       <Route path="/" element={<RootLayout />}>
         <Route path="/" element={<HomeLayout />} >
           <Route path="/" element={<Paradise />} />
-          <Route path="explore" element={<Explore />} />
+          <Route
+            path="explore"
+            element={<Explore />}
+            loader={placeLoader}
+          />
         </Route>
         <Route path="About" element={<About />} />
         <Route path='Contact' element={<Contact />} />

@@ -17,7 +17,6 @@ export default function Message() {
 								<textarea name="message" required></textarea>
 							</label>
 							<button>Submit</button>
-
 						</Form>
 					</div>
 				</div>
