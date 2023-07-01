@@ -5,16 +5,24 @@ export default function Explore() {
   const places = useLoaderData();
   return (
     <div className="main-explore">
-      {
-        places.map((place, count = 1) => (
-          <div key={uuid4()}>
-            <span>{count}</span>
-            <h2>{place.title}</h2>
-            <h2>{place.place}</h2>
-            <img src={place.photo} alt="" />
-          </div>
-        ))
-      }
+      <div className="explore">
+        {
+          places.map((place) => (
+            <div key={place.id} className="explore-image-box" >
+              <div className="explore-text">
+                <div className="explore-image-title">Place: {place.title}</div>
+                <div className="explore-image-place">Location: {place.place}</div>
+              </div>
+              <div className="explore-image">
+                <img
+                  src={process.env.PUBLIC_URL + place.photo} alt={place.place}
+                  className="explore-image-image"
+                />
+              </div>
+            </div>
+          ))
+        }
+      </div>
     </div>
   );
 }
