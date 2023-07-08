@@ -2,7 +2,7 @@ import { useLoaderData, Link } from "react-router-dom";
 
 export default function Paradise() {
   const places = useLoaderData();
-  const selectedPlace = places[Math.floor(Math.random() * (24)) + 1]
+  const selectedPlace = places[Math.floor(Math.random() * (23)) + 1]
 
   return (
     <div className="main-explore">
